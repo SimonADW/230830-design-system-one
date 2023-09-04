@@ -333,6 +333,26 @@ button:active {
 	
 }
 
+/*  Checkbox Section */
+
+fieldset {
+	display: flex;
+	flex-flow: column;
+	margin-left: var(--main__margin-left);
+	border: none;
+	width: 22rem;
+	font-weight: 700;
+	gap: 2rem;
+}
+
+label {
+	text-align: end;
+}
+
+input[type="checkbox"] {
+	
+}
+
 
 
 
