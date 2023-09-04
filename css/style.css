@@ -362,6 +362,73 @@ input[type="checkbox"] {
 }
 
 
+/*  Drawer Section */
+
+.drawer__type {
+	display: flex;
+	flex-direction: row;		
+	margin-left: var(--main__margin-left);	
+}
+
+.drawer__component {
+	width: 550px;
+	margin-left: auto;
+	margin-right: 30rem;
+	font-weight: 700;
+}
+
+.drawer__type {
+	display: flex;
+	flex-direction: column;
+}
+
+.drawer__background {
+	background: lightgrey;
+	height: 50rem;
+	width: 35rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.drawer__field {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: white;
+	width: 375px;
+	height: 667px;
+	padding: 1.4rem 2rem;
+
+}
+
+.drawer__header {
+	font-size: 1.5rem;
+}
+
+.drawer__content {
+	font-weight: 400;
+	transform: translateY(-30px);
+}
+
+.drawer__button-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+button {
+	width: 6rem;
+	font-weight: 400;
+}
+
+button:nth-last-of-type(1) {
+	background-color: white;
+}
+
+button:hover {
+	background: var(--theme__color--hover);
+}
+
 
 /* FOOTER */	
 
