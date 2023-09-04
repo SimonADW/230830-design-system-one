@@ -353,6 +353,13 @@ input[type="checkbox"] {
 	
 }
 
+/*  Radio Section */
+
+.radio-horizontal {
+	display: flex;
+	flex-direction: row;
+	margin-left: var(--main__margin-left);
+}
 
 
 
