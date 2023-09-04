@@ -1,0 +1,255 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Design System One</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://kit.fontawesome.com/04179606a2.js" crossorigin="anonymous"></script>
+		<!-- <script src="" defer> -->
+
+	</head>
+	<body>
+		<header>
+			<div class="header__top-row" id="top-row">
+				<a href="#top">
+					<i class="fa-solid fa-house"></i>
+				</a>				
+			</div>
+			
+			<div class="header__hero">
+				<nav>
+					<span class="span__TOC">Table of content</span>
+					<a href="#accordion"><button class="TOC-button">Accordion</button></a>
+					<a href="#button"><button class="TOC-button">Button</button></a>
+					<a href="#badge"><button class="TOC-button">Badge</button></a>
+					<a href="#breadcrumbs"><button class="TOC-button">Breadcrumbs</button></a>
+					<a href="#card"><button class="TOC-button">Card</button></a>
+					<a href="#checkbox"><button class="TOC-button">Checkbox</button></a>
+					<a href="#radio"><button class="TOC-button">Radio</button></a>
+					<a href="#drawer"><button class="TOC-button">Drawer</button></a>
+					<a href="#tab"><button class="TOC-button">Tab</button></a>
+					<a href="#toast"><button class="TOC-button">Toast</button></a>
+					<a href="stack"><button class="TOC-button">Stack</button></a>
+					<a href="stepper"><button class="TOC-button">Stepper</button></a>
+				</nav>
+
+				<div class="heading">
+					<div class="heading__text-container">Components</div>
+				</div>
+			</div>
+
+			<hr>
+			
+		</header>
+		
+		<main>
+			<!-- Accordion Section -->		
+
+			<div class="component__main-type" id="accordion">
+				<div class="main__type-heading" >Accordion</div>
+				
+				<div class="accordion__type" id="normal">
+					Normal
+					<div class="accordion__component">
+						<div>
+							<button class="accordion__button">
+								<img class="" src="v-solid.svg" alt="" width="12rem" height="auto">
+								<div>Accordion something</div>
+							</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="accordion__type" id="hover">
+					Hover
+					<div class="accordion__component">
+						<div>
+							<button class="accordion__button button--hovered" >
+								<img class="" src="v-solid.svg" alt="" width="12rem" height="auto">
+								<div>Accordion something</div>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="accordion__type" id="active">
+					Active
+					<div class="accordion__component">
+						<div>
+							<button class="accordion__button button--active" >
+								<img class="" src="v-solid.svg" alt="" width="12rem" height="auto">
+								<div>Accordion something</div>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="accordion__type" id="expanded">					
+					Expanded
+					<div class="accordion__component">
+						<div class="accordion--expanded">
+							<button class="accordion__button accordion__button--expanded">
+								<img class="symbol" src="v-solid.svg" alt="" width="12rem" height="auto">
+								<div>Accordion something</div>
+							</button>
+
+							<div class="accordion__content accordion__content--expanded">
+								Accordion Lorem ipsum også videre, med masse tekst som jeg ikke gidder å finne på!
+								Accordion Lorem ipsum også videre, med masse tekst som jeg ikke gidder å finne på!
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="accordion__type" id="example">
+					Example
+					<div class="accordion__component">
+						<div class="accordion__example">
+							<button class="accordion__button">
+								<img class="" src="v-solid.svg" alt="" width="12rem" height="auto">
+								<div>Accordion something</div>
+							</button>
+							<div class="accordion__content">
+								Accordion Lorem ipsum også videre, med masse tekst som jeg ikke gidder å finne på!
+								Accordion Lorem ipsum også videre, med masse tekst som jeg ikke gidder å finne på!
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<hr>
+
+
+			<!-- Button Section -->		
+			
+			<div class="component__main-type" id="button">
+				<div class="main__type-heading">Button</div>
+				
+				<div class="button__type" id="normal">
+					Normal
+					<div class="button__component">
+						<div>
+							<button class="button">
+								<div>Button</div>
+							</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="button__type" id="hover">
+					Hover
+					<div class="button__component">
+						<div>
+							<button class="button button--hovered">
+								<div>Button</div>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="button__type" id="active">
+					Active
+					<div class="button__component">
+						<div>
+							<button class="button button--active" >
+								<div>Button</div>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="button__type" id="example">
+					Example
+					<div class="button__component">
+						<div>
+							<button class="button" >
+								<div>Button</div>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<!-- Badge Section -->
+
+			<div class="component__main-type" id="badge">
+				<div class="main__type-heading">Badge</div>
+				
+				<div class="badge__type">
+					New
+					<div class="badge__component">
+						<div>
+							<div class="badge__new">New</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="badge__type">
+					Info
+					<div class="badge__component">
+						<div>
+							Some relevant<span class="badge__info">Info</span>to emphasize.
+						</div>
+					</div>
+				</div>
+				
+				<div class="badge__type">
+					Alert
+					<div class="badge__component">
+						<div>
+							<div class="badge__alert">!</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<hr>
+			
+			<!-- Breadcrumbs Section -->
+			
+			<div class="component__main-type" id="badge">
+				<div class="main__type-heading">Breadcrumbs</div>
+				
+				<div class="breadcrumb__type">
+					Breadcrumbs Hover
+					<div class="breadcrumb__component">
+						<div>
+							<i class="fa-solid fa-house"></i><span class="breadcrumb__path--static">Home</span><span class="breadcrumb__path--hover">Components</span><span class="breadcrumb__path--static">Breadcrumbs</span>
+						</div>						
+					</div>
+				</div>
+				
+				<div class="breadcrumb__type">
+					Breadcrumbs Example
+					<div class="breadcrumb__component">
+						<div>
+							<i class="fa-solid fa-house"></i><span class="breadcrumb__path">Home</span><span class="breadcrumb__path">Components</span><span class="breadcrumb__path">Breadcrumbs</span>
+						</div>						
+					</div>
+				</div>
+				
+			</div>
+
+			<hr>
+
+			<!-- Card Section  -->
+
+			<div class="component__main-type" id="card">
+				<div class="main__type-heading">Card</div>
+
+			</div>
+			
+			
+		
+		</main>
+		
+		<footer></footer>
+
+	</body>
+	</html>
