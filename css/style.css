@@ -426,9 +426,11 @@ input[type="checkbox"] {
 	background-color: white;
 }
 
-.ok:hover, .cancel:hover {
+.ok:hover, 
+.cancel:hover {
 	background: var(--theme__color--hover);
 } 
+
 
 
 /* FOOTER */	
