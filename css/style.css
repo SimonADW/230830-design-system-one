@@ -416,18 +416,19 @@ input[type="checkbox"] {
 	justify-content: space-around;
 }
 
-button {
+.ok, 
+.cancel {
 	width: 6rem;
 	font-weight: 400;
 }
 
-button:nth-last-of-type(1) {
+.cancel {
 	background-color: white;
 }
 
-button:hover {
+.ok:hover, .cancel:hover {
 	background: var(--theme__color--hover);
-}
+} 
 
 
 /* FOOTER */	
