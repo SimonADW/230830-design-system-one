@@ -250,6 +250,18 @@ button:active {
 	margin: 0 8px;
 }
 
+.button__alert {
+	position: relative;
+}
+
+.badge__example-alert {
+	position: absolute;
+	right: -15px;
+	top: -15px;
+	z-index: 10;
+}
+
+
 /* Breadcrumbs Section */
 
 
