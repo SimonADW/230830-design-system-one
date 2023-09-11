@@ -1,18 +1,3 @@
-
-/* Css variables */
-
-:root {
-	--theme__color--normal: #F0EBD8;
-	--theme__color--hover: #B1BFD0;
-	--theme__color--active: #8093A5;
-	--theme__color--expanded: #748CAB;
-	--theme__color--alert: #E24646;
-	--theme__border-radius: 0.6rem;
-	--main__margin-bottom: 4rem;
-	--main__margin-left: 8rem;
-	--main__button-height: 2rem;
-}
-
 * {
 	font-family: inter;
 }
