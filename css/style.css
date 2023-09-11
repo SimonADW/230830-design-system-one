@@ -4,15 +4,16 @@
 
 body {
 	font-size: 16px;
-	width: 70rem;
+	width: 70rem;  
 	margin: 0 auto;
+	background: var(--theme__color--background);
+	color: var(--theme__color--foreground);
 }
 
 /* Header and navigation */
 
 a.fa-solid {
 	width: 2rem;
-	color: black;		
 }
 
 .header__top-row {
@@ -22,7 +23,7 @@ a.fa-solid {
 	flex-flow: column;
 	width: 100%;
 	height: 2rem;	
-	background: #fff;	
+	background: var(--theme__color--background)
 }
 
 nav {
@@ -32,7 +33,7 @@ nav {
 	gap: 0.4rem;
 	background: var(--theme__color--active);
 	padding:1.5rem;
-	border-radius: var(--theme__border-radius);
+	border-radius: var(--main__border-radius);
 	/* margin-left: var(--main__margin-left); */
 }
 
@@ -53,7 +54,7 @@ nav {
 	height: 33.5rem;	
 	margin-left: 1rem;
 	background-color: var(--theme__color--normal);
-	border-radius: var(--theme__border-radius);
+	border-radius: var(--main__border-radius);
 }
 
 .heading__text-container {
@@ -69,15 +70,15 @@ hr {
 }
 
 .main__type-heading {
-	font-weight: 700;
-	font-size: 1.2rem;
+	font-weight: var(--section__heading-font-weight);
+	font-size: var(	--section__heading-font-size);
 }
 
 .component__main-type {
 	display: flex;
 	flex-direction: column;	
 	margin-top: var(--main__margin-bottom);
-	gap: 2rem;
+	gap: var(--component__margin-bottom);
 	margin-bottom: var(--main__margin-bottom);
 }
 
@@ -114,7 +115,7 @@ hr {
 
 .accordion--expanded {
 	border: 1px solid black; 
-	border-radius: var(--theme__border-radius);
+	border-radius: var(--main__border-radius);
 	overflow: hidden;
 }
 
@@ -168,7 +169,7 @@ button {
 	background: #F0EBD8;
 	padding: 0.5rem 2rem;	
 	border: 1px solid black;
-	border-radius: var(--theme__border-radius);
+	border-radius: var(--main__border-radius);
 	width: 12rem;
 	height: var(--main__button-height);
 }
@@ -208,7 +209,7 @@ button:active {
 	justify-content: center;
 	width: 4rem;
 	border: 2px solid black;
-	border-radius: var(--theme__border-radius);
+	border-radius: var(--main__border-radius);
 	background: var(--theme__color--normal);
 	font-weight: 600;
 }
@@ -218,7 +219,7 @@ button:active {
 	justify-content: center;
 	width: 4rem;
 	border: 2px solid black;
-	border-radius: var(--theme__border-radius);
+	border-radius: var(--main__border-radius);
 	background: var(--theme__color--normal);
 	font-weight: 600;
 	margin: 0 0.5rem;
@@ -229,7 +230,7 @@ button:active {
 	justify-content: center;
 	width: 1.6rem;
 	border: 2px solid black;
-	border-radius: var(--theme__border-radius);
+	border-radius: var(--main__border-radius);
 	background: var(--theme__color--alert);
 	font-weight: 600;
 	margin: 0.5rem;
@@ -306,7 +307,7 @@ button:active {
 	background: var(--theme__color--normal);
 	margin-left: var(--main__margin-left);
 	font-weight: 700;
-	border-radius: var(--theme__border-radius);
+	border-radius: var(--main__border-radius);
 }
 
 .card__component>div {
