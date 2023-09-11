@@ -7,18 +7,18 @@
 	--theme__color--active: #8093A5;
 	--theme__color--expanded: #748CAB;
 	--theme__color--alert: #E24646;
-	--theme__border-radius: 15px;
+	--theme__border-radius: 0.6rem;
 	--main__margin-bottom: 4rem;
-	--main__margin-left: 5rem;
-	--main__button-height: 38px;
+	--main__margin-left: 8rem;
+	--main__button-height: 2rem;
 }
 
 * {
-	font-size: 20px;
 	font-family: inter;
 }
 
 body {
+	font-size: 16px;
 	width: 70rem;
 	margin: 0 auto;
 }
@@ -44,7 +44,7 @@ nav {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 5px;
+	gap: 0.4rem;
 	background: var(--theme__color--active);
 	padding:1.5rem;
 	border-radius: var(--theme__border-radius);
@@ -65,7 +65,7 @@ nav {
 	display: flex;
 	justify-content: center;	
 	width: 100%;
-	height: 31rem;	
+	height: 33.5rem;	
 	margin-left: 1rem;
 	background-color: var(--theme__color--normal);
 	border-radius: var(--theme__border-radius);
@@ -110,9 +110,9 @@ hr {
 }
 
 .accordion__component {
-	width: 550px;
+	width: 34rem;
 	margin-left: auto;
-	margin-right: 30rem;
+	margin-right: 20rem;
 
 }
 
@@ -123,8 +123,8 @@ hr {
 	height: var(--main__button-height);
 	justify-content: flex-start;
 	align-items: center;
-	padding: 10px 20px;
-	gap: 20px;	
+	padding: 0.5rem 2rem;
+	gap: 1.7rem;	
 }
 
 .accordion--expanded {
@@ -144,8 +144,8 @@ hr {
 
 .accordion__content--expanded {  /* Add class to accordion__content to expand */
 	display: block; 
-	margin-left: 35px;
-	padding: 10px 20px;	
+	margin-left: 2rem;
+	padding: 0.5rem 2rem;	
 }
 
 .symbol {					/* Add class to accordion__button -> img to expand */
@@ -170,9 +170,9 @@ button:active {
 }
 
 .button__component {
-	width: 550px;
+	width: 5rem;
 	margin-left: auto;
-	margin-right: 30rem;
+	margin-right: 40rem;
 
 }
 
@@ -181,10 +181,10 @@ button {
 	align-items: center;
 	justify-content: center;
 	background: #F0EBD8;
-	padding: 10px 20px;
+	padding: 0.5rem 2rem;	
 	border: 1px solid black;
 	border-radius: var(--theme__border-radius);
-	width: 232px;
+	width: 12rem;
 	height: var(--main__button-height);
 }
 
@@ -213,15 +213,15 @@ button:active {
 }
 
 .badge__component {
-	width: 550px;
+	width: 34rem;
 	margin-left: auto;
-	margin-right: 30rem;
+	margin-right: 20rem;
 }
 
 .badge__new {
 	display: flex;	
 	justify-content: center;
-	width: 70px;
+	width: 4rem;
 	border: 2px solid black;
 	border-radius: var(--theme__border-radius);
 	background: var(--theme__color--normal);
@@ -231,23 +231,23 @@ button:active {
 .badge__info {
 	display: inline-flex;	
 	justify-content: center;
-	width: 70px;
+	width: 4rem;
 	border: 2px solid black;
 	border-radius: var(--theme__border-radius);
 	background: var(--theme__color--normal);
 	font-weight: 600;
-	margin: 0 8px;
+	margin: 0 0.5rem;
 }
 
 .badge__alert {
 	display: inline-flex;	
 	justify-content: center;
-	width: 40px;
+	width: 1.6rem;
 	border: 2px solid black;
 	border-radius: var(--theme__border-radius);
 	background: var(--theme__color--alert);
 	font-weight: 600;
-	margin: 0 8px;
+	margin: 0.5rem;
 }
 
 .button__alert {
@@ -274,13 +274,13 @@ button:active {
 .breadcrumb__component {
 	width: 550px;
 	margin-left: auto;
-	margin-right: 30rem;
+	margin-right: 20rem;
 	font-weight: 700;
 }
 
 .fa-house {
-	margin-right: 
-	8px;
+	margin-right: 0.4rem;
+	0.5px;
 }
 
 /* Multiple Breadcrumbs */
@@ -316,8 +316,8 @@ button:active {
 .card__component {
 	display: flex;
 	align-items: center;
-	width: 790px;
-	height: 150px;
+	width: 42rem;
+	height: 10rem;
 	background: var(--theme__color--normal);
 	margin-left: var(--main__margin-left);
 	font-weight: 700;
@@ -327,9 +327,9 @@ button:active {
 .card__component>div {
 	display: flex;
 	align-items: flex-start;
-	margin: 15px 30px;
-	width: 690px;
-	height: 105px;
+	margin: 1rem 2rem;
+	width: 38rem;
+	height: 6rem;
 
 }
 
@@ -385,7 +385,7 @@ input[type="checkbox"] {
 .drawer__component {
 	width: 550px;
 	margin-left: auto;
-	margin-right: 30rem;
+	margin-right: 20rem;
 	font-weight: 700;
 }
 
@@ -408,8 +408,8 @@ input[type="checkbox"] {
 	flex-direction: column;
 	justify-content: space-between;
 	background: white;
-	width: 375px;
-	height: 667px;
+	width: 24rem;
+	height: 42rem;
 	padding: 1.4rem 2rem;
 
 }
@@ -420,7 +420,7 @@ input[type="checkbox"] {
 
 .drawer__content {
 	font-weight: 400;
-	transform: translateY(-30px);
+	transform: translateY(-6.5rem);
 }
 
 .drawer__button-container {
@@ -430,7 +430,7 @@ input[type="checkbox"] {
 
 .ok, 
 .cancel {
-	width: 6rem;
+	width: 7.5rem;
 	font-weight: 400;
 }
 
