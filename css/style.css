@@ -430,11 +430,13 @@ label {
 /* Drawer desktop */
 .drawer__desktop-background {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	background: lightgrey;
 	width: 80rem;
-	height: 52rem;
+	height: 60rem;
+	padding-top: var(--main__margin-bottom);
 }
 
 .drawer__screen {
@@ -473,6 +475,30 @@ label {
 	font-weight: 400;
 	transform: translateY(-8rem);
 }
+
+/*  Drawer arrows */
+.drawer__arrow-container {
+	display: flex;
+	margin-top: 0.8rem;
+	width: 90%;
+	text-align: center;
+}
+
+.drawer__arrow-solid {
+	width: 100%;
+}
+
+.drawer__arrow-fade {
+
+}
+
+.drawer__percentage {
+	transform: translateY(-1.1rem);
+}
+
+
+
+
 
 
 
