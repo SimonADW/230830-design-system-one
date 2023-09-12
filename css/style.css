@@ -357,6 +357,7 @@ label {
 }
 
 /*  Drawer Section */
+	/* Drawer mobile */
 
 .drawer__type {
 	display: flex;
@@ -389,20 +390,21 @@ label {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	background: white;
+	background: var(--theme__color--background);
 	width: 24rem;
 	height: 42rem;
-	padding: 1.4rem 2rem;
+	padding: 1.8rem 2rem;
 }
 
 .drawer__heading {
 	font-size: 1.5rem;
+	transform: translateY(-3rem);
 }
 
 .drawer__content {
 	font-size: 1.1rem;
 	font-weight: 400;
-	transform: translateY(-5rem);
+	transform: translateY(-6rem);
 }
 
 .drawer__button-container {
@@ -417,7 +419,7 @@ label {
 }
 
 .cancel {
-	background-color: white;
+	background-color: var(--theme__color--background);
 }
 
 .ok:hover, 
@@ -431,8 +433,8 @@ label {
 	align-items: center;
 	justify-content: center;
 	background: lightgrey;
-	width: 90rem;
-	height: 64rem;
+	width: 80rem;
+	height: 52rem;
 }
 
 .drawer__screen {
@@ -447,11 +449,10 @@ label {
 .drawer__desktop-field {
 	display: flex;
 	flex-direction: column;
-	/* justify-content: space-between; */
-	background: white;
+	background: var(--theme__color--background);
 	width: 24rem;
 	height: 100%;
-	padding: 1.4rem 2rem;
+	padding: 1.8rem 2rem;
 }
 
 .drawer__desktop-field-center {
@@ -464,12 +465,13 @@ label {
 
 .drawer__desktop-heading {
 	font-size: 1.5rem;
+	transform: translateY(-4rem);
 }
 
 .drawer__desktop-content {
 	font-size: 1.2rem;
 	font-weight: 400;
-	transform: translateY(-8.5rem);
+	transform: translateY(-8rem);
 }
 
 
