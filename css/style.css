@@ -340,25 +340,21 @@ fieldset {
 	border: none;
 	width: 22rem;
 	font-weight: 700;
-	gap: 2rem;
+	gap: var(--component__margin-bottom);
 }
 
 label {
 	text-align: end;
 }
 
-input[type="checkbox"] {
-	
-}
-
 /*  Radio Section */
 
-.radio-horizontal {
+.radio-horizontal-container {
 	display: flex;
 	flex-direction: row;
 	margin-left: var(--main__margin-left);
+	gap: var(--component__margin-bottom);
 }
-
 
 /*  Drawer Section */
 
@@ -397,7 +393,6 @@ input[type="checkbox"] {
 	width: 24rem;
 	height: 42rem;
 	padding: 1.4rem 2rem;
-
 }
 
 .drawer__header {
