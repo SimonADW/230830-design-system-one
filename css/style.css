@@ -1,5 +1,5 @@
 * {
-	font-family: inter;
+	font-family: "inter";
 }
 
 body {
@@ -365,10 +365,10 @@ label {
 }
 
 .drawer__component {
-	width: 550px;
+	width: 34rem;
 	margin-left: auto;
 	margin-right: 20rem;
-	font-weight: 700;
+
 }
 
 .drawer__type {
@@ -395,13 +395,14 @@ label {
 	padding: 1.4rem 2rem;
 }
 
-.drawer__header {
+.drawer__heading {
 	font-size: 1.5rem;
 }
 
 .drawer__content {
+	font-size: 1.1rem;
 	font-weight: 400;
-	transform: translateY(-6.5rem);
+	transform: translateY(-5rem);
 }
 
 .drawer__button-container {
@@ -423,6 +424,53 @@ label {
 .cancel:hover {
 	background: var(--theme__color--hover);
 } 
+
+/* Drawer desktop */
+.drawer__desktop-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: lightgrey;
+	width: 90rem;
+	height: 64rem;
+}
+
+.drawer__screen {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 90%; 
+	height: 90%;
+	background: var(--theme__color--active);
+}
+
+.drawer__desktop-field {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-between; */
+	background: white;
+	width: 24rem;
+	height: 100%;
+	padding: 1.4rem 2rem;
+}
+
+.drawer__desktop-field-center {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+	height: 100%;
+
+}
+
+.drawer__desktop-heading {
+	font-size: 1.5rem;
+}
+
+.drawer__desktop-content {
+	font-size: 1.2rem;
+	font-weight: 400;
+	transform: translateY(-8.5rem);
+}
 
 
 
