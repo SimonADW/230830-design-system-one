@@ -494,11 +494,12 @@ label {
 }
 
 /*  Tabs */
+/* Tab states */
 
 .tabs__type-collection {
 	display: flex;
 	justify-content: space-around;
-	margin: 0 auto
+	margin: 0 auto;
 	width: 60rem;
 	height: 20rem;
 }
@@ -527,11 +528,76 @@ label {
 	border: 0.07rem solid;
 }
 
+.tabs__component--inactive {
+	color: var(--theme__color--active);
+}
+
+.tabs__line--inactive {
+	color: var(--theme__color--active);
+}
+
+.tabs__line--hover {
+	color: var(--theme__color--alert);
+	
+}
+
+.tabs__line--active, .tabs__component--active {
+	color: var(--theme__color--alert);
+}
+
+/* Tab example */
+.tabs__type-example {
+	
+}
 
 
+.tabs__example-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: lightgrey;
+	width: 55rem;
+	height: 9.3rem;
+	margin-left: var(--main__margin-left);
 
+}
 
+.tabs__example-foreground {
+	display: flex;
+	flex-direction: column;
+	height: 7.2rem;
+	background: var(--theme__color--background);
+	width: calc(100% - (9.3rem - 7.2rem));		
+}
 
+.tabs__example-tabs-row {
+	display: flex;
+	width: auto;
+	margin: 0 2rem;
+}
+
+.tabs__example-tabs-row div {
+	height: 7.2;
+	border-bottom: 0.15rem solid;
+	padding: 0.7rem 2rem 0.5rem 0;
+	color: var(--theme__color--active);
+}
+
+.tabs__example-rightOfTabs-filler {
+	width: 100%;
+}
+
+/* Tabs interactivity */
+
+.tabs__example-tabs-row div:hover:not(:last-of-type) {  /* Not last div; solely for border-bottom */
+	border-color: var(--theme__color--alert);
+	color: var(--theme__color--foreground);
+}
+
+.tabs__example-tabs-row div:active:not(:last-of-type) {  /* Not last div; solely for border-bottom */
+	border-color: var(--theme__color--alert);
+	color: var(--theme__color--alert);
+}
 
 
 
