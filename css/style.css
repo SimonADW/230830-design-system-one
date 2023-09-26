@@ -599,6 +599,72 @@ label {
 	color: var(--theme__color--alert);
 }
 
+/*  Toast section */
+
+.toast__type {
+	display: flex;
+	flex-direction: row;		
+	text-wrap: nowrap;
+	margin-left: var(--main__margin-left);	
+
+}
+
+.toast__sub-heading {
+	width: 7rem;
+}
+
+.toast__component-normal {
+	display: flex;
+	align-items: center;
+	width: 36.6rem;
+	height: 2.5rem;	
+	background: var(--theme__color--normal);
+	border-radius: 7px;	
+	margin: 0 auto 0 5rem;
+}
+
+.toast__component-alert {
+	display: flex;
+	align-items: center;
+	width: 36.6rem;
+	height: 2.5rem;	
+	background: var(--theme__color--alert);
+	color: var(--theme__color--background);
+	border-radius: 7px;	
+	margin: 0 auto 0 5rem;
+	font-size: 1.15rem;
+}
+
+.toast__component-with-button {
+	display: flex;
+	align-items: center;
+	width: 36.6rem;
+	height: 2.5rem;	
+	background: var(--theme__color--normal);
+	border-radius: 7px;	
+	margin: 0 auto 0 5rem;
+	font-size: 1.15rem;
+}
+
+.toast__symbol {
+	padding: 0 0.8rem;
+	position: relative;
+	top: 0.15rem;
+}
+
+.toast__symbol--alert {
+	color: var(--theme__color--background);
+}
+
+.toast__component-button {
+	width: 6rem;
+	height: 60%;
+	background: var(--theme__color--background);
+	margin: 0 1rem 0 auto;
+	border-radius: 15px;
+	font-size: 0.9rem;
+	font-weight: 600;
+}
 
 
 /* FOOTER */	
@@ -606,3 +672,4 @@ label {
 footer {
 	height: 20vh;  /* temporary working space */
 }
+
