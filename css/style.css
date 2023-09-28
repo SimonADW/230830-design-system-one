@@ -355,7 +355,17 @@ label {
 
 #checkbox__example-live:hover {
 	transform: scale(1.4);
+	animation: pop 300ms linear;
 }
+
+
+@keyframes pop {
+	0%  {transform: scale(1);} 
+	40% {transform: scale(2);} 
+	60% {transform: scale(1.6);} 
+	100%  {transform: scale(1.4);} 
+ } 
+
 
 /*  Radio Section */
 
@@ -370,13 +380,6 @@ input[type="radio"]:hover {
 	transform: scale(1.4);
 	animation: pop 300ms linear;
 }
-
-@keyframes pop {
-	0%, 100% {transform: scale(1);} 
-	40% {transform: scale(2);} 
-	60% {transform: scale(1.5);} 
- } 
-
 
 /*  Drawer Section */
 	/* Drawer mobile */
