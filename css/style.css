@@ -608,7 +608,7 @@ input[type="radio"]:hover {
 
 .tabs__example-tabs-row div {
 	height: 7.2;
-	border-bottom: 0.15rem solid;
+	border-bottom: 0.19rem solid;
 	padding: 0.7rem 2rem 0.5rem 0;
 	color: var(--theme__color--active);
 }
