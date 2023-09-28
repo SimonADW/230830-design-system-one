@@ -649,7 +649,7 @@ input[type="radio"]:hover {
 	width: 36.6rem;
 	height: 2.5rem;	
 	background: var(--theme__color--normal);
-	border-radius: 7px;	
+	border-radius: var(--main__border-radius);	
 	margin: 0 auto 0 5rem;
 }
 
@@ -660,7 +660,7 @@ input[type="radio"]:hover {
 	height: 2.5rem;	
 	background: var(--theme__color--alert);
 	color: var(--theme__color--background);
-	border-radius: 7px;	
+	border-radius: var(--main__border-radius);	
 	margin: 0 auto 0 5rem;
 	font-size: 1.15rem;
 }
@@ -671,7 +671,7 @@ input[type="radio"]:hover {
 	width: 36.6rem;
 	height: 2.5rem;	
 	background: var(--theme__color--normal);
-	border-radius: 7px;	
+	border-radius: var(--main__border-radius);	
 	margin: 0 auto 0 5rem;
 	font-size: 1.15rem;
 }
@@ -695,6 +695,70 @@ input[type="radio"]:hover {
 	font-size: 0.9rem;
 	font-weight: 600;
 }
+
+/* Stack section */
+
+.stack__type {
+	display: flex;
+	flex-direction: row;		
+	text-wrap: nowrap;
+	margin-left: var(--main__margin-left);	
+
+}
+
+.stack__sub-heading {
+	width: 7rem;
+}
+
+.stack__component-normal {
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+	width: 36.6rem;
+	height: 12.5rem;	
+	background: var(--theme__color--normal);
+	border-radius: var(--main__border-radius);	
+	margin: 0 auto 0 5rem;
+	padding: 2rem 0 0 3rem;
+	font-weight: 600;
+
+}
+
+/*  Stepper section  */
+
+.stepper__type {
+	display: flex;
+	flex-direction: row;		
+	text-wrap: nowrap;
+	margin-left: var(--main__margin-left);	
+
+}
+
+.stepper__sub-heading {
+	width: 7rem;
+}
+
+.stepper__component {
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+	width: 36.6rem;
+	height: 12.5rem;	
+	background: var(--theme__color--background);
+	border: 1px solid black;
+	border-radius: var(--main__border-radius);	
+	margin: 0 auto 0 5rem;
+	padding: 2rem 0 0 3rem;
+	font-weight: 600;
+}
+
+.stepper__row, .stepper__step {
+	display: flex;
+	flex-direction: row nowrap;
+}
+
+
+
 
 
 /* FOOTER */	
