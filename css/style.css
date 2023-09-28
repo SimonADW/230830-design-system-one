@@ -108,28 +108,28 @@ nav {
 	gap: 1.7rem;	
 }
 
-.accordion--expanded {
+.accordion__expanded { 		
 	border: 1px solid black; 
 	border-radius: var(--main__border-radius);
 	overflow: hidden;
 }
 
-.accordion__content {   /* When collapsed */
+.accordion__content {   
 	display: none;
 }
 
-.accordion__button--expanded { 	/* Add class to button to expand */
+.accordion__button--expanded { 	
 	border: none;
 	border-radius: 0;	
 }
 
-.accordion__content--expanded {  /* Add class to accordion__content to expand */
+.accordion__content--expanded {  /* Add class to .accordion__content to expand */
 	display: block; 
 	margin-left: 2rem;
 	padding: 0.5rem 2rem;	
 }
 
-.symbol {					/* Add class to accordion__button -> img to expand */
+.symbol {					/* Add class to .accordion__button -> img to expand */
 	rotate: 180deg; 
 }
 
@@ -140,6 +140,7 @@ button:hover {
 button:active {
 	background: #8093A5;
 }
+
 
 
 /* Button Section */
