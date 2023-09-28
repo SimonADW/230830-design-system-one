@@ -353,6 +353,10 @@ label {
 	text-align: end;
 }
 
+#checkbox__example-live:hover {
+	transform: scale(1.4);
+}
+
 /*  Radio Section */
 
 .radio-horizontal-container {
@@ -361,6 +365,11 @@ label {
 	margin-left: var(--main__margin-left);
 	gap: var(--component__margin-bottom);
 }
+
+input[type="radio"]:hover {
+	transform: scale(1.4);
+}
+
 
 /*  Drawer Section */
 	/* Drawer mobile */
