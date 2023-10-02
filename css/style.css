@@ -141,7 +141,9 @@ button:active {
 	background: #8093A5;
 }
 
-
+.disabled {					/* Disable hover and active on static buttons */
+	pointer-events: none;
+}
 
 /* Button Section */
 
