@@ -29,7 +29,14 @@ Contributors:
 	* [Spor/Vy](https://spor.cloud.vy.no/)  
 
 ### License  
-License is found in the [Lincese.txt](License.txt) in the [:root folder][]  
+License is found in the [Lincese.txt](License.txt) in the [:root folder][] 
+
+### Related Links
+Netlify: [Semesterassignment3 - Designsystem](https://bucolic-douhua-19060b.netlify.app)  
+GitHub: [Designsystem repository](https://github.com/SimonADW/230830-design-system-one)
+
+[Simon Winter](https://github.com/SimonADW)
+ 
 
 MIT © [Simon Winter](https://github.com/SimonADW)
 
