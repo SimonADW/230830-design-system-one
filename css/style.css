@@ -721,6 +721,21 @@ input[type="radio"]:hover {
 	font-weight: 600;
 }
 
+.toast__example {
+	display: none;  /* TODO make JS on toast */
+	align-items: center;
+	width: 36.6rem;
+	height: 2.5rem;	
+	background: var(--theme__color--normal);
+	border-radius: var(--main__border-radius);	
+	margin: 0 auto 0 5rem;
+	font-size: 1.15rem;
+}
+
+#toast__example-button {
+	margin: 0 auto 0 5rem;
+}
+
 /* Stack section */
 
 .stack__type {
