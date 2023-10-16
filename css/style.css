@@ -94,22 +94,20 @@ nav {
 	width: 34rem;
 	margin-left: auto;
 	margin-right: 20rem;
-
 }
 
 .accordion__button {
-	background: #F0EBD8;
+	background: var(--theme__color--normal);
 	display: flex;
 	width: 100%;
 	height: var(--main__button-height);
 	justify-content: flex-start;
 	align-items: center;
-	padding: 0.5rem 2rem;
-	gap: 1.7rem;	
+	padding: 0.5rem 1rem;
 }
 
 .accordion__expanded { 		
-	border: 1px solid black; 
+	border: 1px solid var(--theme__color--foreground); 
 	border-radius: var(--main__border-radius);
 	overflow: hidden;
 }
@@ -125,8 +123,16 @@ nav {
 
 .accordion__content--expanded {  /* Add class to .accordion__content to expand */
 	display: block; 
-	margin-left: 2rem;
-	padding: 0.5rem 2rem;	
+	padding: 0.5rem 3.6rem;	
+}
+
+.accordion__button div::before {
+	display: inline-block;
+	width: 1.6rem;
+	height: 0.9rem;
+	content: "";
+	background: url(../assets/accordion-arrow.svg) no-repeat bottom;
+	margin-right: 1rem;
 }
 
 .symbol {					/* Add class to .accordion__button -> img to expand */

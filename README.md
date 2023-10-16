@@ -1,4 +1,4 @@
-## README - Design system one
+## README - Semester assignment 4 - Design system
 This is my _first_ design system, and my _first_ **README**.  
 Sept. 14th 2023
 
@@ -32,7 +32,7 @@ Contributors:
 License is found in the [Lincese.txt](License.txt) in the [:root folder][] 
 
 ### Related Links
-Netlify: [Semesterassignment3 - Designsystem](https://bucolic-douhua-19060b.netlify.app)  
+Netlify: [Semesterassignment 4 - Designsystem](https://bucolic-douhua-19060b.netlify.app)  
 GitHub: [Designsystem repository](https://github.com/SimonADW/230830-design-system-one)
 
 [Simon Winter](https://github.com/SimonADW)
