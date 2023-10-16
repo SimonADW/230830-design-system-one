@@ -722,14 +722,22 @@ input[type="radio"]:hover {
 }
 
 .toast__example {
-	display: none;  /* TODO make JS on toast */
+	display: flex;  /* TODO make JS on toast */
 	align-items: center;
 	width: 36.6rem;
 	height: 2.5rem;	
-	background: var(--theme__color--normal);
+	background: var(--theme__color--alert);
+	color: var(--theme__color--background);
 	border-radius: var(--main__border-radius);	
-	margin: 0 auto 0 5rem;
 	font-size: 1.15rem;
+	position: fixed;
+	bottom: -2.5rem;
+	left: calc(50vw - (36.6rem / 2));
+	transition: all 300ms ease;
+}
+
+.toast__example--visible {
+	bottom: 5rem;
 }
 
 #toast__example-button {
