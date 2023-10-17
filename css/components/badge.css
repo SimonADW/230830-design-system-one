@@ -1,0 +1,88 @@
+
+.badge__type {
+	display: flex;
+	flex-direction: row;		
+	margin-left: var(--main__margin-left);	
+}
+
+.badge__component {
+	width: 34rem;
+	margin-left: auto;
+	margin-right: 20rem;
+}
+
+.badge__new {
+	display: flex;	
+	justify-content: center;
+	width: 4rem;
+	border: 2px solid black;
+	border-radius: var(--main__border-radius);
+	background: var(--theme__color--normal);
+	font-weight: 600;
+}
+
+.badge__info {
+	display: inline-flex;	
+	justify-content: center;
+	width: 4rem;
+	border: 2px solid black;
+	border-radius: var(--main__border-radius);
+	background: var(--theme__color--normal);
+	font-weight: 600;
+	margin: 0 0.5rem;
+}
+
+.badge__alert {
+	display: inline-flex;	
+	justify-content: center;
+	width: 1.6rem;
+	border: 2px solid black;
+	border-radius: var(--main__border-radius);
+	background: var(--theme__color--alert);
+	font-weight: 600;
+	margin: 0.5rem;
+}
+
+.button__alert {
+	position: relative;
+}
+
+.badge__example-alert {
+	position: absolute;
+	right: -15px;
+	top: -15px;
+	z-index: 10;
+}
+
+.button__alert:hover .badge__example-alert {
+animation: bounce 1s ease-out both;
+}
+
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+	40% {transform: translateY(-15px);} 
+	60% {transform: translateY(-7px);} 
+ } 
+
+
+
+/*  Button  */
+button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #F0EBD8;
+	padding: 0.5rem 2rem;	
+	border: 1px solid black;
+	border-radius: var(--main__border-radius);
+	width: 12rem;
+	height: var(--main__button-height);
+}
+
+button:hover {
+	background: #B1BFD0;
+}
+
+button:active {
+	background: #8093A5;
+}

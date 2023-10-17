@@ -1,0 +1,25 @@
+
+.stack__type {
+	display: flex;
+	flex-direction: row;		
+	text-wrap: nowrap;
+	margin-left: var(--main__margin-left);	
+}
+
+.stack__sub-heading {
+	width: 7rem;
+}
+
+.stack__component-normal {
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+	width: 36.6rem;
+	height: 12.5rem;	
+	background: var(--theme__color--normal);
+	border-radius: var(--main__border-radius);	
+	margin: 0 auto 0 5rem;
+	padding: 2rem 0 0 3rem;
+	font-weight: 600;
+
+}

@@ -1,0 +1,41 @@
+
+.breadcrumb__type {
+	display: flex;
+	flex-direction: row;		
+	margin-left: var(--main__margin-left);	
+}
+
+.breadcrumb__component {
+	width: 550px;
+	margin-left: auto;
+	margin-right: 20rem;
+	font-weight: 700;
+}
+
+.fa-house {
+	margin-right: 0.4rem;
+	0.5px;
+}
+
+/* Multiple Breadcrumbs */
+.breadcrumb__path:not(:first-of-type)::before {
+	content: " > ";
+}
+
+.breadcrumb__path:hover {
+	color: var(--theme__color--active);
+}
+
+
+/* Hover Breadcrumbs (static) */
+
+.breadcrumb__path--hover {
+	color: var(--theme__color--active);
+}
+.breadcrumb__path--static:not(:first-of-type)::before {
+	content: " > ";
+}
+
+.breadcrumb__path--hover::before {
+	content: " > ";
+}

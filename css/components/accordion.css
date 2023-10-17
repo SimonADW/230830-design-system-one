@@ -1,0 +1,98 @@
+
+.accordion__type {
+	display: flex;
+	flex-direction: row;		
+	margin-left: var(--main__margin-left);	
+}
+
+.accordion__component {
+	width: 34rem;
+	margin-left: auto;
+	margin-right: 20rem;
+}
+
+.accordion__button {
+	background: var(--theme__color--normal);
+	display: flex;
+	width: 100%;
+	height: var(--main__button-height);
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0.5rem 1rem;
+}
+
+.accordion__expanded { 		
+	border: 1px solid var(--theme__color--foreground); 
+	border-radius: var(--main__border-radius);
+	overflow: hidden;
+}
+
+.accordion__content {   
+	display: none;
+}
+
+.accordion__button--expanded { 	
+	border: none;
+	border-radius: 0;	
+}
+
+.accordion__content--expanded {  /* Add class to .accordion__content to expand */
+	display: block; 
+	padding: 0.5rem 3.6rem;	
+}
+
+.accordion__button div::before {
+	display: inline-block;
+	width: 1.6rem;
+	height: 0.9rem;
+	content: "";
+	background: url(../../assets/accordion-arrow.svg) no-repeat bottom;
+	margin-right: 1rem;
+}
+
+.symbol {					/* Add class to .accordion__button -> img to expand */
+	rotate: 180deg; 
+}
+
+button:hover {
+	background: #B1BFD0;
+}
+
+button:active {
+	background: #8093A5;
+}
+
+.disabled {					/* Disable hover and active on static buttons */
+	pointer-events: none;
+}
+
+/* Buttons */
+
+
+button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #F0EBD8;
+	padding: 0.5rem 2rem;	
+	border: 1px solid black;
+	border-radius: var(--main__border-radius);
+	width: 12rem;
+	height: var(--main__button-height);
+}
+
+.button--hovered {
+	background: #B1BFD0;
+}
+
+.button--active {
+	background: #8093A5;
+}
+
+button:hover {
+	background: #B1BFD0;
+}
+
+button:active {
+	background: #8093A5;
+}

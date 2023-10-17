@@ -1,0 +1,27 @@
+fieldset {
+	display: flex;
+	flex-flow: column;
+	margin-left: var(--main__margin-left);
+	border: none;
+	width: 22rem;
+	font-weight: 700;
+	gap: var(--component__margin-bottom);
+}
+
+label {
+	text-align: end;
+}
+
+#checkbox__example-live:hover {
+	transform: scale(1.4);
+	animation: pop 300ms linear;
+}
+
+
+@keyframes pop {
+	0%  {transform: scale(1);} 
+	40% {transform: scale(2);} 
+	60% {transform: scale(1.6);} 
+	100%  {transform: scale(1.4);} 
+ } 
+

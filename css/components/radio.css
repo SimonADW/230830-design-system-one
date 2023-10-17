@@ -1,0 +1,11 @@
+.radio-horizontal-container {
+	display: flex;
+	flex-direction: row;
+	margin-left: var(--main__margin-left);
+	gap: var(--component__margin-bottom);
+}
+
+input[type="radio"]:hover {
+	transform: scale(1.4);
+	animation: pop 300ms linear;
+}

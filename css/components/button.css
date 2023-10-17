@@ -1,0 +1,41 @@
+
+.button__type {
+	display: flex;
+	flex-direction: row;		
+	margin-left: var(--main__margin-left);	
+}
+
+.button__component {
+	width: 5rem;
+	margin-left: auto;
+	margin-right: 40rem;
+
+}
+
+button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #F0EBD8;
+	padding: 0.5rem 2rem;	
+	border: 1px solid black;
+	border-radius: var(--main__border-radius);
+	width: 12rem;
+	height: var(--main__button-height);
+}
+
+.button--hovered {
+	background: #B1BFD0;
+}
+
+.button--active {
+	background: #8093A5;
+}
+
+button:hover {
+	background: #B1BFD0;
+}
+
+button:active {
+	background: #8093A5;
+}

@@ -1,0 +1,43 @@
+.card__type {
+	display: flex;
+	flex-direction: row;		
+	margin-left: var(--main__margin-left);
+}
+
+.card__component {
+	display: flex;
+	align-items: center;
+	width: 36.6rem;
+	height: 12.5rem;	
+	background: var(--theme__color--normal);
+	margin-left: var(--main__margin-left);
+	font-weight: 700;
+	border-radius: var(--main__border-radius);
+	transition: 250ms ease;
+
+}
+
+.card__component:hover {
+	transform: scale(1.04)
+} 
+
+.card__component>div {
+	display: flex;
+	align-items: flex-start;
+	margin: 1rem 2rem;
+	width: 38rem;
+	height: 6rem;
+
+}
+
+.card__infocard {
+	display: flex;
+	text-justify: center;
+	align-items: center;
+	font-weight: 400;
+	padding: 0 1.5rem;
+}
+
+.card__comment-symbol {
+	
+}

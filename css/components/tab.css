@@ -1,0 +1,110 @@
+/* Tab states */
+
+.tabs__type-collection {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	width: 60rem;
+	height: 20rem;
+}
+
+.tabs__state-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: lightgrey;
+	width: 9.3rem;
+	height: 9.3rem;
+}
+
+.tabs__component {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 7.2rem;
+	height: 7.2rem;
+	background:var(--theme__color--background);
+} 
+
+.tabs__component>hr {  
+	width: 2.7rem;
+	border: 0.07rem solid;
+}
+
+.tabs__component--inactive {
+	color: var(--theme__color--active);
+}
+
+.tabs__line--inactive {
+	color: var(--theme__color--active);
+}
+
+.tabs__line--hover {
+	color: var(--theme__color--alert);
+	
+}
+
+.tabs__line--active, .tabs__component--active {
+	color: var(--theme__color--alert);
+}
+
+/* Tab example */
+
+.tabs__example-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: lightgrey;
+	width: 55rem;
+	height: 9.3rem;
+	margin-left: var(--main__margin-left);
+}
+
+.tabs__example-foreground {
+	display: flex;
+	flex-direction: column;
+	height: 7.2rem;
+	background: var(--theme__color--background);
+	width: calc(100% - (9.3rem - 7.2rem));	
+}
+
+.tabs__example-tabs-row {
+	display: flex;		
+	width: 90%;
+	margin: 0 2rem;
+	border-bottom: 0.17rem solid var(--theme__color--active);
+	box-sizing: border-box;
+	padding-top: 1rem;
+	padding-bottom: 0.4rem ;
+}
+
+.tabs__example-tabs-separator span:hover {
+	border-bottom: 0.17rem solid var(--theme__color--alert);
+	color: var(--theme__color--foreground);
+}
+
+.tabs__example-tabs-separator span:active {
+	color: var(--theme__color--alert);
+}
+
+.tabs__example-tabs-separator {
+
+	display: flex;
+	justify-content: space-between;
+	gap: 2.3rem;
+	color: var(--theme__color--active);
+
+}
+
+/* Tabs interactivity */
+
+.tabs__example-tabs-row div:hover:not(:last-of-type) {  /* Not last div; solely for border-bottom */
+	border-color: var(--theme__color--alert);
+	color: var(--theme__color--foreground);
+}
+
+.tabs__example-tabs-row div:active:not(:last-of-type) {  /* Not last div; solely for border-bottom */
+	border-color: var(--theme__color--alert);
+	color: var(--theme__color--alert);
+}
