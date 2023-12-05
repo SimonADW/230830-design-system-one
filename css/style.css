@@ -49,18 +49,36 @@ nav {
 
 .heading {
 	display: flex;
-	justify-content: center;	
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
 	width: 100%;
 	height: 33.5rem;	
 	margin-left: 1rem;
 	background-color: var(--theme__color--normal);
+	font-weight: 500;
 	border-radius: var(--main__border-radius);
+	overflow: hidden;
 }
 
 .heading__text-container {
 	font-size: 4rem;
-	margin-top: 3rem;
+	opacity: 0.8;
+	padding: 1rem 2rem;
+	border-radius: var(--main__border-radius);
+	backdrop-filter: blur(5px);
+	margin-bottom: 1rem;
+}
 
+.heading__image-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	width: 100%;
+	height: 100%;
+	background-image: url(../assets/valdemaras-library.jpeg);
+	background-position: bottom;
+	background-size: cover;
 }
 
 /* MAIN SECTION BELOW */
@@ -79,7 +97,16 @@ nav {
 	margin-bottom: var(--main__margin-bottom);
 }
 
+.to-top-link {
+	text-align: end;
+	font-weight: 500;
+	padding: 0.5rem 1rem;
+	border: 1px solid black;
+	border-radius: var(--main__border-radius);
+	width: fit-content;
+	margin-left: auto;
 
+}
 /* FOOTER */	
 
 footer {
