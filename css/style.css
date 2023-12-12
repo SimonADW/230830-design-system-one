@@ -98,13 +98,17 @@ nav {
 }
 
 .to-top-link {
-	text-align: end;
+	position: fixed;
+	bottom: 80px;
+	right: 50px;
+	display: none;
+	align-items: center;
 	font-weight: 500;
 	padding: 0.5rem 1rem;
 	border: 1px solid black;
 	border-radius: var(--main__border-radius);
 	width: fit-content;
-	margin-left: auto;
+
 
 }
 /* FOOTER */	

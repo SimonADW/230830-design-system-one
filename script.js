@@ -23,6 +23,29 @@ toastTriggerButton.addEventListener("click", ()=> {
 	}, 4000);
 })
 
+// Scroll to top button
+
+const scrollToTopButton = document.querySelector(".to-top-link");
+
+const displayButtonOnScroll = ()=> {
+	if (window.scrollY > 800) {
+		scrollToTopButton.style.display = "flex";
+	} else {
+		scrollToTopButton.style.display = "none";
+	}
+}
+
+const scrollToTopSmooth = ()=> {
+	window.scroll({
+		top: 0,
+		left: 0,
+		behavior: "smooth",
+	});
+};
+
+window.addEventListener("scroll", displayButtonOnScroll);
+scrollToTopButton.addEventListener("click", scrollToTopSmooth);
+
 
 
 
