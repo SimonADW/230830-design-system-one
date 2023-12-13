@@ -69,7 +69,17 @@ nav {
 	background-image: url(../assets/valdemaras-library.jpeg);
 	background-position: bottom;
 	background-size: cover;
+	position: relative;
 }
+
+.heading__photo-credit {
+	position: absolute;
+	bottom: 8px;
+	right: 15px;
+	margin: 0;
+	font-weight: 300;
+}
+
 
 /* MAIN SECTION BELOW */
 
@@ -89,8 +99,8 @@ nav {
 
 .to-top-link {
 	position: fixed;
-	bottom: 80px;
-	right: 50px;
+	bottom: 2rem;
+	right: 3rem;
 	display: none;
 	align-items: center;
 	font-weight: 500;
@@ -104,6 +114,8 @@ nav {
 /* FOOTER */	
 
 footer {
-	height: 20vh;  /* temporary working space */
+	height: fit-content;
+	padding: 2rem 0 ;
+	text-align: center;
 }
 
